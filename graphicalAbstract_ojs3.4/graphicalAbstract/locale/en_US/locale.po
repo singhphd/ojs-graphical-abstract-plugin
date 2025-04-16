@@ -1,0 +1,9 @@
+
+msgid "plugins.generic.graphicalAbstract.displayName"
+msgstr "Graphical Abstract"
+
+msgid "plugins.generic.graphicalAbstract.description"
+msgstr "Allows authors to upload graphical abstracts during submission."
+
+msgid "plugins.generic.graphicalAbstract.tabTitle"
+msgstr "Graphical Abstract"

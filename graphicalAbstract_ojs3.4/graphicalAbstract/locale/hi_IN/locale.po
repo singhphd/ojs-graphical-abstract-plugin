@@ -1,0 +1,9 @@
+
+msgid "plugins.generic.graphicalAbstract.displayName"
+msgstr "ग्राफिकल एब्सट्रैक्ट"
+
+msgid "plugins.generic.graphicalAbstract.description"
+msgstr "लेखकों को सबमिशन के दौरान ग्राफिकल एब्सट्रैक्ट अपलोड करने की अनुमति देता है।"
+
+msgid "plugins.generic.graphicalAbstract.tabTitle"
+msgstr "ग्राफिकल एब्सट्रैक्ट"
