@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en_US\n"
+
+msgid "plugins.generic.graphicalAbstract.displayName"
+msgstr "Graphical Abstract Plugin"
+
+msgid "plugins.generic.graphicalAbstract.description"
+msgstr "Adds a workflow tab to allow authors and editors to upload graphical abstracts during submission and editing."
+
+msgid "plugins.generic.graphicalAbstract.tabName"
+msgstr "Graphical Abstract"
+
+msgid "plugins.generic.graphicalAbstract.uploadLabel"
+msgstr "Upload Graphical Abstract"
+
+msgid "plugins.generic.graphicalAbstract.currentImage"
+msgstr "Current Graphical Abstract"
+
+msgid "plugins.generic.graphicalAbstract.save"
+msgstr "Save"
+
+msgid "plugins.generic.graphicalAbstract.uploadFailed"
+msgstr "Image upload failed. Please ensure the file is an image and try again."

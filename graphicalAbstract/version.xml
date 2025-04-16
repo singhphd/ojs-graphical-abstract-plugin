@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<version>
+  <application>graphicalAbstract</application>
+  <type>plugins.generic</type>
+  <release>1.0.0</release>
+  <date>2025-04-14</date>
+  <lazyLoad>1</lazyLoad>
+</version>

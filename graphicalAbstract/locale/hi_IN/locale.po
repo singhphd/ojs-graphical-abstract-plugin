@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: hi_IN\n"
+
+msgid "plugins.generic.graphicalAbstract.displayName"
+msgstr "ग्राफ़िकल एब्स्ट्रैक्ट प्लगइन"
+
+msgid "plugins.generic.graphicalAbstract.description"
+msgstr "लेख प्रस्तुत करने और संपादन के दौरान ग्राफ़िकल एब्स्ट्रैक्ट अपलोड करने के लिए एक नया टैब जोड़ता है।"
+
+msgid "plugins.generic.graphicalAbstract.tabName"
+msgstr "ग्राफ़िकल एब्स्ट्रैक्ट"
+
+msgid "plugins.generic.graphicalAbstract.uploadLabel"
+msgstr "ग्राफ़िकल एब्स्ट्रैक्ट अपलोड करें"
+
+msgid "plugins.generic.graphicalAbstract.currentImage"
+msgstr "वर्तमान ग्राफ़िकल एब्स्ट्रैक्ट"
+
+msgid "plugins.generic.graphicalAbstract.save"
+msgstr "सहेजें"
+
+msgid "plugins.generic.graphicalAbstract.uploadFailed"
+msgstr "इमेज अपलोड असफल। कृपया सुनिश्चित करें कि फाइल एक इमेज है और पुनः प्रयास करें।"
