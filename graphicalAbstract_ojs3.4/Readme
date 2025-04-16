@@ -1,0 +1,14 @@
+The Graphical Abstract tab in the submission workflow (no core modification needed).
+
+for 3.4.0.08
+
+
+Register a Vue component as a submission tab.
+
+Use the correct hook: Template::Submission::Workflow::Tabs.
+
+Add a Vue template file with a simple UI for graphical abstract upload.
+
+Use the FormComponent or SubmissionTabHandler for saving data.
+
+Note: update required
