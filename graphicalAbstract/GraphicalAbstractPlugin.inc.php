@@ -6,6 +6,9 @@ class GraphicalAbstractPlugin extends GenericPlugin {
         if ($success && $this->getEnabled()) {
             HookRegistry::register('Template::Workflow::Submission::Tabs', [$this, 'addGraphicalAbstractTab']);
             HookRegistry::register('LoadComponentHandler', [$this, 'loadTabHandler']);
+
+            // Display the graphical abstract on article and issue pages
+            HookRegistry::register('TemplateManager::display', [$this, 'injectGraphicalAbstract']);
         }
         return $success;
     }
@@ -37,6 +40,37 @@ class GraphicalAbstractPlugin extends GenericPlugin {
             import($this->getPluginPath() . '/GraphicalAbstractTabHandler.inc.php');
             return true;
         }
+        return false;
+    }
+
+    /**
+     * Inject the uploaded graphical abstract into article and issue templates.
+     */
+    public function injectGraphicalAbstract($hookName, $args) {
+        $templateMgr = $args[0];
+        $template = $args[1];
+        $output =& $args[2];
+
+        if ($template === 'frontend/objects/article_summary.tpl') {
+            $article = $templateMgr->getTemplateVars('article');
+            if ($article) {
+                $url = $article->getData('GraphicalAbstract');
+                if ($url) {
+                    $injection = '<div class="graphical_abstract"><img src="' . $url . '" alt="Graphical Abstract"></div>';
+                    $output = preg_replace('/(<\\h[1-6] class="title">.*?<\\/h[1-6]>)/s', "$1" . $injection, $output, 1);
+                }
+            }
+        } elseif ($template === 'frontend/objects/article_details.tpl') {
+            $article = $templateMgr->getTemplateVars('article');
+            if ($article) {
+                $url = $article->getData('GraphicalAbstract');
+                if ($url) {
+                    $injection = '<div class="graphical_abstract"><img src="' . $url . '" alt="Graphical Abstract"></div>';
+                    $output = preg_replace('/(<h1 class="page_title">.*?<\/h1>)/s', "$1" . $injection, $output, 1);
+                }
+            }
+        }
+
         return false;
     }
 }

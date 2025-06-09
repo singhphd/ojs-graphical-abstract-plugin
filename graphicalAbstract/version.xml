@@ -2,7 +2,7 @@
 <version>
   <application>graphicalAbstract</application>
   <type>plugins.generic</type>
-  <release>1.0.0</release>
-  <date>2025-04-14</date>
+  <release>1.1.0</release>
+  <date>2025-06-09</date>
   <lazyLoad>1</lazyLoad>
 </version>
