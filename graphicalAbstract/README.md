@@ -11,6 +11,7 @@ This plugin adds a **Graphical Abstract** tab to the submission workflow in **Op
 - Validates file type (JPEG/PNG).
 - Available in **English** and **Hindi**.
 - Works with the standard OJS plugin architecture.
+- Displays the graphical abstract below the article title on issue and article pages.
 
 ---
 
